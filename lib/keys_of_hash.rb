@@ -2,13 +2,17 @@ require 'pry'
 
 class Hash
   def keys_of(*arguments)
-    matching_keys = []
-    self.each do |key, value|
-      arguments.each do |argument|
-        if value == argument
-          matching_keys << key
-        end
-      end
-    end
-    matching_keys
+  output = []
+  arguments.each do |x|
+    
+  self.each do | animal , location |
+    if location == arguments
+      
+      output  << animal
+      
+    end 
+  end
+  output
+  end
+end 
 end
