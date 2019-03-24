@@ -12,5 +12,5 @@ class Hash
   end
   output
   end
-end 
-end
+  end  # end of method keys_of 
+end # end of class
