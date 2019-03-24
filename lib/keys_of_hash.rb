@@ -4,7 +4,7 @@ class Hash
   def keys_of(arguments)
   array = []
   i = 0
-  while i < self.length
+  while i < 
   self.each do | animal , location |
     if location == arguments
       
