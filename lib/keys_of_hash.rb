@@ -11,6 +11,6 @@ class Hash
     end 
   end
   end # end of args each
-  outputs 
+  output
   end  # end of method keys_of 
 end # end of class
