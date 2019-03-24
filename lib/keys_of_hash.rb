@@ -13,5 +13,4 @@ class Hash
     end 
   end 
   end
-  output
 end
