@@ -8,7 +8,6 @@ class Hash
     if location == arguments
       
       output  << animal
-      #binding.pry
       
     end 
   end
