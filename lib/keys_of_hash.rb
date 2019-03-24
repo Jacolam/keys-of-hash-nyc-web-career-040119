@@ -1,7 +1,7 @@
 require 'pry'
 
 class Hash
-  def keys_of(*arguments)
+  def keys_of(arguments)
   output = []
   self.each do | animal , location |
     if location == arguments
