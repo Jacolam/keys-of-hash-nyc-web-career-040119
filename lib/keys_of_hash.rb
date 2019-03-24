@@ -5,7 +5,7 @@ class Hash
   array = []
   self.each do | animal , location |
     if location == arguments
-      #binding.pry
+      binding.pry
       array  << animal
     end 
   end 
