@@ -11,6 +11,7 @@ class Hash
       binding.pry
       
     end 
-  end 
+  end
+  output
   end
 end
