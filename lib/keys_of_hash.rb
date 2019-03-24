@@ -8,6 +8,7 @@ class Hash
       
       array  << animal
       binding.pry
+      return array
     end 
   end 
   end
