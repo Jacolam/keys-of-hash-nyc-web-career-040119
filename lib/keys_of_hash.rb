@@ -3,6 +3,8 @@ require 'pry'
 class Hash
   def keys_of(arguments)
   array = []
+  i = 0
+  while i < self.length
   self.each do | animal , location |
     if location == arguments
       
