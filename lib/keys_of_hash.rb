@@ -10,7 +10,7 @@ class Hash
       output  << animal
     end 
   end
-  output
-  end
+  end # end of args each
+  outputs 
   end  # end of method keys_of 
 end # end of class
