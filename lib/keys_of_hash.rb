@@ -11,7 +11,7 @@ class Hash
     end 
   end
   end # end of args each
-  binding.pry
+  #binding.pry
   output
   end  # end of method keys_of 
 end # end of class
